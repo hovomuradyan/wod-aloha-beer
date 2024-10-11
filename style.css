@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1; /* This makes the content area expand to fill available space */
+}
+footer {
+    background-color: #EDC601;
+    color: black;
+}
+.no-margin {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
